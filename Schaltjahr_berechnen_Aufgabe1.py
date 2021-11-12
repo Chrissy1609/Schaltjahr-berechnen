@@ -9,4 +9,3 @@ if prüfJahr % 4 == 0 and (prüfJahr % 100 !=0 or prüfJahr % 400 ==0):   # %   
                                                                        # !=     bedeutet: ist nicht gleich
 else:                                                                  # else   bedeutet: wenn nicht dann
     print(prüfJahr ,"ist kein Schaltjahr")                             # if     bedeutet:   wenn es so ist
-
