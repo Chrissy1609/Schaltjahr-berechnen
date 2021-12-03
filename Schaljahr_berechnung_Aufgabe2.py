@@ -11,4 +11,4 @@ for i in range(maxJahr - minJahr):                                              
     if (pruefJahr % 4 ==0 and (pruefJahr % 100 != 0 or pruefJahr % 400 ==0)):       # % bedeute den Rest der Ganzzahl ausgeben
         Jahre.append(pruefJahr)                                                     # == bedeutet ist gleich / != bedeutet ist nicht gleich
                                                                                     # (Jahre) = Liste / .append = etwas zur Liste hinzufügen
-print(Jahre)                                                                        # Liste Jahre ausgeben
+    print(Jahre)                                                                        # Liste Jahre ausgeben
